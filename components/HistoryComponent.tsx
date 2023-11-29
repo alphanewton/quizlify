@@ -36,7 +36,7 @@ async function HistoryComponent({
                   href={`/statistics/${game.id}`}
                   className="text-base font-medium leading-none underline"
                 >
-                  {categoryMap.get(parseInt(game.category))!.name}
+                  {categoryMap.get(parseInt(game.category))?.name}
                 </Link>
 
                 <p className="flex items-center px-2 py-1 text-sm text-white rounded-lg w-fit bg-slate-800">
