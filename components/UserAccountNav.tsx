@@ -37,7 +37,7 @@ function UserAccountNav({
 
         <DropdownMenuSeparator />
         <DropdownMenuItem asChild>
-          <Link href="/">Meow</Link>
+          <Link href="/">Dashboard</Link>
         </DropdownMenuItem>
 
         <DropdownMenuSeparator />
